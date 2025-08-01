@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enhanced HTML5 Content & Forms</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML5 Content and Forms Demonstration</h1>
+      <p>
+        A comprehensive showcase of HTML5 semantic elements, content
+        organization, and form validation
+      </p>
+    </header>
+
+    <main>
+      <!-- Lists Section -->
+      <section>
+        <h2>Content Organization with Lists</h2>
+
+        <article>
+          <h3>HTML5 Learning Path</h3>
+          <ol>
+            <li>Master semantic HTML elements and document structure</li>
+            <li>Understand form controls and native validation</li>
+            <li>Implement accessibility best practices</li>
+            <li>Work with multimedia elements effectively</li>
+            <li>Create responsive and maintainable layouts</li>
+          </ol>
+        </article>
+
+        <article>
+          <h3>Key HTML5 Features</h3>
+          <ul>
+            <li>Semantic elements for better document structure</li>
+            <li>Built-in form validation without JavaScript</li>
+            <li>Native audio and video support with fallbacks</li>
+            <li>Enhanced accessibility features and ARIA support</li>
+            <li>Improved input types for better user experience</li>
+            <li>Local storage and offline application capabilities</li>
+            <li>Canvas and SVG for graphics and visualization</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>HTML5 Input Types Reference</h3>
+          <dl>
+            <dt>email</dt>
+            <dd>
+              Validates email format automatically and provides appropriate
+              mobile keyboards
+            </dd>
+
+            <dt>url</dt>
+            <dd>Ensures proper URL format validation with protocol checking</dd>
+
+            <dt>number</dt>
+            <dd>
+              Restricts input to numeric values with optional min, max, and step
+              attributes
+            </dd>
+
+            <dt>date</dt>
+            <dd>
+              Provides native date picker functionality with format consistency
+            </dd>
+
+            <dt>tel</dt>
+            <dd>Optimizes mobile keyboards for phone number input</dd>
+
+            <dt>color</dt>
+            <dd>Native color picker interface for hex color selection</dd>
+          </dl>
+        </article>
+      </section>
+
+      <!-- Tables Section -->
+      <section>
+        <h2>Data Organization with Tables</h2>
+
+        <article>
+          <h3>HTML5 Input Types Comparison</h3>
+          <table>
+            <caption>
+              Comprehensive comparison of HTML5 input types and their
+              capabilities
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Input Type</th>
+                <th scope="col">Validation</th>
+                <th scope="col">Mobile Keyboard</th>
+                <th scope="col">Browser Support</th>
+                <th scope="col">Common Use Cases</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>email</td>
+                <td>Automatic email format validation</td>
+                <td>Email-optimized with @ symbol</td>
+                <td>Excellent</td>
+                <td>Contact forms, user registration</td>
+              </tr>
+              <tr>
+                <td>tel</td>
+                <td>No automatic validation</td>
+                <td>Numeric keypad with symbols</td>
+                <td>Good</td>
+                <td>Phone numbers, contact information</td>
+              </tr>
+              <tr>
+                <td>url</td>
+                <td>URL format with protocol validation</td>
+                <td>URL-optimized with slash and dot</td>
+                <td>Good</td>
+                <td>Website links, social profiles</td>
+              </tr>
+              <tr>
+                <td>number</td>
+                <td>Numeric with optional range limits</td>
+                <td>Numeric keypad</td>
+                <td>Excellent</td>
+                <td>Quantities, ages, measurements</td>
+              </tr>
+              <tr>
+                <td>date</td>
+                <td>Date format validation</td>
+                <td>Date picker interface</td>
+                <td>Very Good</td>
+                <td>Birth dates, appointments, deadlines</td>
+              </tr>
+              <tr>
+                <td>time</td>
+                <td>Time format validation</td>
+                <td>Time picker interface</td>
+                <td>Good</td>
+                <td>Scheduling, appointments</td>
+              </tr>
+              <tr>
+                <td>color</td>
+                <td>Hex color format validation</td>
+                <td>Color picker interface</td>
+                <td>Good</td>
+                <td>Theme customization, design tools</td>
+              </tr>
+              <tr>
+                <td>range</td>
+                <td>Numeric range with slider</td>
+                <td>Slider interface</td>
+                <td>Excellent</td>
+                <td>Volume controls, ratings, settings</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article>
+          <h3>Form Validation Attributes</h3>
+          <table>
+            <caption>
+              HTML5 form validation attributes and their functions
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Attribute</th>
+                <th scope="col">Purpose</th>
+                <th scope="col">Compatible Input Types</th>
+                <th scope="col">Example Usage</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>required</td>
+                <td>Makes field mandatory</td>
+                <td>Most input types</td>
+                <td>User registration forms</td>
+              </tr>
+              <tr>
+                <td>pattern</td>
+                <td>Regular expression validation</td>
+                <td>text, email, url, tel</td>
+                <td>Phone number formatting</td>
+              </tr>
+              <tr>
+                <td>minlength/maxlength</td>
+                <td>Character count limits</td>
+                <td>text, email, url, tel, textarea</td>
+                <td>Password strength, comments</td>
+              </tr>
+              <tr>
+                <td>min/max</td>
+                <td>Numeric or date range limits</td>
+                <td>number, date, time, range</td>
+                <td>Age restrictions, date ranges</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+
+      <!-- Media Section -->
+      <section>
+        <h2>Media Integration</h2>
+
+        <article>
+          <h3>Semantic Image Markup</h3>
+          <figure>
+            <img
+              src="video-poster.JPG"
+              alt="Placeholder image demonstrating responsive image implementation"
+              width="600"
+              height="300"
+            />
+            <figcaption>
+              Example of semantic image markup with proper alt text, dimensions,
+              and caption for accessibility compliance
+            </figcaption>
+          </figure>
+        </article>
+
+        <article>
+          <h3>Audio Content Integration</h3>
+          <figure>
+            <audio controls preload="metadata">
+              <source src="audio.mp3" type="audio/mpeg" />
+              <source src="your-audio-file.ogg" type="audio/ogg" />
+              <p>
+                Your browser does not support the audio element.
+                <a href="audio.mp3">Download the audio file</a>.
+              </p>
+            </audio>
+            <figcaption>
+              HTML5 audio element with multiple format support and graceful
+              degradation for older browsers
+            </figcaption>
+          </figure>
+        </article>
+
+        <article>
+          <h3>Video Content Integration</h3>
+          <figure>
+            <video
+              controls
+              width="600"
+              height="340"
+              poster="video-poster.JPG"
+              preload="metadata"
+            >
+              <source src="video.mp4" type="video/mp4" />
+              <source src="your-video-file.webm" type="video/webm" />
+              <track
+                kind="subtitles"
+                src="your-subtitles.vtt"
+                srclang="en"
+                label="English"
+              />
+              <p>
+                Your browser does not support the video element.
+                <a href="video.mp4">Download the video file</a>.
+              </p>
+            </video>
+            <figcaption>
+              HTML5 video element with poster image, multiple formats, subtitle
+              tracks, and fallback content
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+
+      <!-- Comprehensive Form Section -->
+      <section>
+        <h2>Comprehensive HTML5 Form with Validation</h2>
+
+        <form action="/submit" method="post" novalidate>
+          <fieldset>
+            <legend>Personal Information</legend>
+
+            <p>
+              <label for="firstName">First Name:</label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                required
+                minlength="2"
+                maxlength="50"
+                pattern="[A-Za-z\s\-']+"
+                placeholder="John"
+                autocomplete="given-name"
+              />
+              <br /><small
+                >Enter your legal first name (2-50 characters, letters
+                only)</small
+              >
+            </p>
+
+            <p>
+              <label for="lastName">Last Name:</label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                required
+                minlength="2"
+                maxlength="50"
+                pattern="[A-Za-z\s\-']+"
+                placeholder="Smith"
+                autocomplete="family-name"
+              />
+              <br /><small
+                >Enter your legal last name (2-50 characters, letters
+                only)</small
+              >
+            </p>
+
+            <p>
+              <label for="email">Email Address:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="john.smith@example.com"
+                autocomplete="email"
+              />
+              <br /><small
+                >We'll use this for account verification and
+                communication</small
+              >
+            </p>
+
+            <p>
+              <label for="phone">Phone Number:</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                placeholder="123-456-7890"
+                autocomplete="tel"
+              />
+              <br /><small>Format: 123-456-7890 (optional)</small>
+            </p>
+
+            <p>
+              <label for="birthdate">Date of Birth:</label>
+              <input
+                type="date"
+                id="birthdate"
+                name="birthdate"
+                min="1900-01-01"
+                max="2010-12-31"
+                autocomplete="bday"
+              />
+              <br /><small>Must be 18 years or older</small>
+            </p>
+
+            <p>
+              <label for="website">Personal Website:</label>
+              <input
+                type="url"
+                id="website"
+                name="website"
+                placeholder="https://yourwebsite.com"
+                autocomplete="url"
+              />
+              <br /><small>Include http:// or https:// (optional)</small>
+            </p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Professional Details</legend>
+
+            <p>
+              <label for="experience">Years of Experience:</label>
+              <input
+                type="number"
+                id="experience"
+                name="experience"
+                required
+                min="0"
+                max="50"
+                step="1"
+                placeholder="0"
+              />
+              <br /><small>Enter total years of professional experience</small>
+            </p>
+
+            <p>
+              <label for="salaryRange"
+                >Expected Salary Range: $30,000 - $200,000</label
+              >
+              <input
+                type="range"
+                id="salaryRange"
+                name="salaryRange"
+                min="30000"
+                max="200000"
+                step="5000"
+                value="75000"
+              />
+              <br /><small>Drag to select your expected salary range</small>
+            </p>
+
+            <p>
+              <label for="skills">Primary Technical Skills:</label>
+              <select id="skills" name="skills" required multiple size="6">
+                <option value="html">HTML5</option>
+                <option value="css">CSS3</option>
+                <option value="javascript">JavaScript</option>
+                <option value="react">React</option>
+                <option value="nodejs">Node.js</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="sql">SQL/Database</option>
+                <option value="php">PHP</option>
+                <option value="csharp">C#</option>
+              </select>
+              <br /><small
+                >Hold Ctrl (Cmd on Mac) to select multiple skills</small
+              >
+            </p>
+
+            <fieldset>
+              <legend>Preferred Work Environment</legend>
+              <p>
+                <input
+                  type="radio"
+                  id="remote"
+                  name="workEnvironment"
+                  value="remote"
+                  required
+                />
+                <label for="remote">Remote Work</label>
+              </p>
+              <p>
+                <input
+                  type="radio"
+                  id="office"
+                  name="workEnvironment"
+                  value="office"
+                  required
+                />
+                <label for="office">Office-Based</label>
+              </p>
+              <p>
+                <input
+                  type="radio"
+                  id="hybrid"
+                  name="workEnvironment"
+                  value="hybrid"
+                  required
+                />
+                <label for="hybrid">Hybrid Model</label>
+              </p>
+            </fieldset>
+
+            <fieldset>
+              <legend>Additional Services (Optional)</legend>
+              <p>
+                <input
+                  type="checkbox"
+                  id="newsletter"
+                  name="services[]"
+                  value="newsletter"
+                />
+                <label for="newsletter">Monthly Newsletter Subscription</label>
+              </p>
+              <p>
+                <input
+                  type="checkbox"
+                  id="mentoring"
+                  name="services[]"
+                  value="mentoring"
+                />
+                <label for="mentoring">Professional Mentoring Program</label>
+              </p>
+              <p>
+                <input
+                  type="checkbox"
+                  id="consulting"
+                  name="services[]"
+                  value="consulting"
+                />
+                <label for="consulting">Technical Consulting Services</label>
+              </p>
+              <p>
+                <input
+                  type="checkbox"
+                  id="training"
+                  name="services[]"
+                  value="training"
+                />
+                <label for="training">Skills Training Workshops</label>
+              </p>
+            </fieldset>
+          </fieldset>
+
+          <fieldset>
+            <legend>Additional Information</legend>
+
+            <p>
+              <label for="portfolio">Portfolio/Resume Upload:</label>
+              <input
+                type="file"
+                id="portfolio"
+                name="portfolio"
+                accept=".pdf,.doc,.docx,.txt"
+              />
+              <br /><small
+                >Upload your resume or portfolio (PDF, DOC, DOCX, TXT - Max
+                5MB)</small
+              >
+            </p>
+
+            <p>
+              <label for="availabilityDate">Available Start Date:</label>
+              <input
+                type="date"
+                id="availabilityDate"
+                name="availabilityDate"
+                min="2025-08-01"
+              />
+              <br /><small>When can you start working?</small>
+            </p>
+
+            <p>
+              <label for="preferredTime">Preferred Contact Time:</label>
+              <input
+                type="time"
+                id="preferredTime"
+                name="preferredTime"
+                min="09:00"
+                max="17:00"
+              />
+              <br /><small>Business hours: 9 AM - 5 PM</small>
+            </p>
+
+            <p>
+              <label for="themeColor">Preferred Interface Theme:</label>
+              <input
+                type="color"
+                id="themeColor"
+                name="themeColor"
+                value="#4A90E2"
+              />
+              <br /><small>Choose your preferred color theme</small>
+            </p>
+
+            <p>
+              <label for="bio">Professional Summary:</label>
+              <textarea
+                id="bio"
+                name="bio"
+                required
+                minlength="100"
+                maxlength="1000"
+                rows="6"
+                cols="50"
+                placeholder="Provide a brief summary of your professional background, key achievements, and career goals..."
+              ></textarea>
+              <br /><small
+                >Describe your experience and goals (100-1000 characters)</small
+              >
+            </p>
+
+            <p>
+              <label for="referralSource">How did you hear about us?</label>
+              <select id="referralSource" name="referralSource">
+                <option value="">Please select...</option>
+                <option value="search">Search Engine</option>
+                <option value="social">Social Media</option>
+                <option value="friend">Friend or Colleague</option>
+                <option value="advertisement">Online Advertisement</option>
+                <option value="conference">Conference or Event</option>
+                <option value="newsletter">Industry Newsletter</option>
+                <option value="other">Other</option>
+              </select>
+              <br /><small>Help us understand our reach</small>
+            </p>
+
+            <p>
+              <input type="hidden" name="formVersion" value="1.0" />
+              <label for="submissionTime">Form Submission Time:</label>
+              <input
+                type="datetime-local"
+                id="submissionTime"
+                name="submissionTime"
+                readonly
+              />
+              <br /><small>Automatically recorded submission timestamp</small>
+            </p>
+
+            <p>
+              <label for="searchTerms">Search Keywords (admin use):</label>
+              <input
+                type="search"
+                id="searchTerms"
+                name="searchTerms"
+                placeholder="Enter search terms..."
+                readonly
+              />
+              <br /><small>Internal tracking field</small>
+            </p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Terms and Submission</legend>
+
+            <p>
+              <input type="checkbox" id="terms" name="terms" required />
+              <label for="terms">
+                I have read and agree to the Terms of Service and Privacy
+                Policy. I understand that my information will be processed
+                according to these policies.
+              </label>
+            </p>
+
+            <p>
+              <input
+                type="checkbox"
+                id="communications"
+                name="communications"
+              />
+              <label for="communications">
+                I consent to receive communications about job opportunities and
+                industry updates.
+              </label>
+            </p>
+
+            <p>
+              <button type="submit">Submit Application</button>
+              <button type="reset">Reset Form</button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>HTML5 Enhanced Content and Forms Demonstration</p>
+      <p>
+        <small
+          >Showcasing semantic markup, accessibility features, and native form
+          validation</small
+        >
+      </p>
+    </footer>
+  </body>
+</html>
